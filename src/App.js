@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import { BrowserRouter, Routes, Route, NavLink } from 'react-router-dom'
+import { HiHome } from 'react-icons/hi'
+import { MdGroup } from 'react-icons/md'
+import './App.css'
+import Movie from './pages/Movie'
+import Profile from './pages/Profile'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <BrowserRouter>
+      <header>
+        <p id="titleGroup">Kelompok 32</p>
       </header>
-    </div>
-  );
+      <Routes>
+        
+        <Route path="/movie" element={<Movie />} />
+        <Route path="/profile" element={<Profile />} />
+      </Routes>
+      <footer>
+        <NavLink to="/movie" className="iconWrapper">
+          <HiHome className="icon" />
+          Movie
+        </NavLink>
+        <NavLink to="/profile" className="iconWrapper">
+          <MdGroup className="icon" />
+          Profile
+        </NavLink>
+      </footer>
+    </BrowserRouter>
+  )
 }
 
-export default App;
+export default App

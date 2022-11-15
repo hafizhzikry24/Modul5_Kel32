@@ -1,0 +1,32 @@
+.containerBig {
+    padding-left: 40px;
+  }
+  
+  .posterBig {
+    width: 280px;
+    height: 160px;
+    border-radius: 2px;
+    border-radius: 20px;
+  }
+  
+  .descriptionBig {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #title {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Verdana;
+  }
+  
+  #genre {
+    color: grey;
+    font-family: Verdana;
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  
