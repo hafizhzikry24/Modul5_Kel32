@@ -1,0 +1,67 @@
+.containerCardProfile{
+    margin-top: 10px;
+    background-color: rgb(65, 65, 233);
+    display: flex;
+    margin-bottom: 20px;
+    padding-left: 40px;
+    cursor: pointer;
+    border-radius: 12px;
+    color: rgb(15, 255, 179);
+    width: 40%;
+    height: 155px;
+}
+
+.containerProfileitems{
+    display: flex;
+    padding-left: 20px;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 5px;
+    font-family: Poppins;
+
+
+}
+
+.avatarProfile{
+    margin-top: 5px;
+    width: 80px;
+    height: 125px;
+    border-radius: 12px;
+    margin-left: 10px;
+}
+
+.usernameProfile{
+    margin-top: 10px;
+    font-size: 15px;
+    margin-left: 30px;
+}
+
+
+.emailProfile{
+    margin-top: 3px;
+    font-size: 15px;
+    margin-left: 30px;
+}
+
+.nameProfile{
+    
+    font-size: 15px;
+    margin-left: 30px;
+}
+
+.blogProfile{
+    font-size: 15px;
+    margin-left: 30px;
+}
+
+
+.locationProfile{
+    font-size: 15px;
+    margin-left: 30px;
+}
+
+.twitterProfile{
+    font-size: 15px;
+    margin-left: 30px;
+}
+
